@@ -1,9 +1,9 @@
 :root {
 	--main-background: rgb(20,22,33);
 
-	--icon-background: rgb(35, 64, 94);
+	--icon-background: rgb(35, 64, 94, 0.4);
 
-	--hover-color: rgb(201,0,118);
+	--hover-color: rgb(201,0,118, 0.6);
 
 	--text-color: rgb(232,232,232);
 
@@ -31,7 +31,7 @@ body {
 @keyframes reveal {
     0% {
         opacity: 0;
-        transform: translateY(35px);
+        transform: translateY(-45px);
     }
 
     100% {
