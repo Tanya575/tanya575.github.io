@@ -25,7 +25,7 @@ body {
 	background-color: var(--main-background);
 }
 
-.main-content {
+.main-page {
 	animation: reveal 800ms ease-in-out;
 }
 @keyframes reveal {
